@@ -1,0 +1,16 @@
+<div class="session-card">
+  <div class="session-card__location">
+    <div class="session-card__time">{{ time.start }} - {{ time.end }}</div>
+    <div class="session-card__room"> {{ location }}</div>
+  </div>
+  <div class="session-card__details">
+    <h2 class="session-card__heading {{ category }}">{{ title }}</h2>
+    <div class="session-card__description">{{ description }}</div>
+    <div class="session-card__speakers">
+      <h3>Featured Speakers</h3>
+      {% for speaker in speakers %} 
+        <div><a href="{{ speaker.href }}">{{ speaker.info }}</a></div>
+      {% endfor %}
+    </div>
+  </div>
+</div>

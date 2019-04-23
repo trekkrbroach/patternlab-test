@@ -1,0 +1,67 @@
+
+
+.session-card__heading {
+  font-weight: bold;
+  color: #fff;
+  padding: 15px 10px;
+  margin-top: 0; }
+  .session-card__heading.category-0 {
+    background-color: #d584b7; }
+  .session-card__heading.category-1 {
+    background-color: #9361a8; }
+  .session-card__heading.category-2 {
+    background-color: #903b6c; }
+  .session-card__heading.category-3 {
+    background-color: #6f398b; }
+
+.session-card__location {
+  width: 20%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .session-card__location .session-card__time {
+    font-weight: bold; }
+  .session-card__location .session-card__room {
+    font-weight: bold; }
+
+.session-card__details {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+  width: 80%;
+  float: left; }
+
+  .sg-colors {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  .sg-colors li {
+    -webkit-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
+    padding: 0.3em;
+    margin: 0 0.5em 0.5em 0;
+    min-width: 5em;
+    max-width: 14em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .sg-swatch {
+    display: block;
+    height: 4em;
+    margin-bottom: 0.3em;
+    border-radius: 5px;
+  }
+  
+  .sg-label {
+    font-size: 90%;
+    line-height: 1;
+  }

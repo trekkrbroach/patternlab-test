@@ -1,0 +1,16 @@
+<section class="session-card-collection">
+  {% block collection %} 
+    {% for item in items %} 
+      {% 
+        include 'session-card/session-card.twig' with {
+          title: item.title,
+          category: item.category,
+          time: item.time,
+          location: item.location,
+          description: item.description,
+          spearkers: item.speakers,
+        }
+      %}
+    {% endfor %}
+  {% endblock %}
+</section>
