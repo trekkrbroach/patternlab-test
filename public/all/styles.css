@@ -1,4 +1,6 @@
-
+.session-card {
+  display: flex;
+}
 
 .session-card__heading {
   font-weight: bold;
